@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+	<body>
+		<script>
+			var pathname = window.location.pathname;
+			var appliname = pathname.substring(0,pathname.substring(1).indexOf('/')+1);
+			var url = "../../.." + appliname + "-config/index.htm"
+			window.location = url;
+		</script>
+	</body>
+</html>
